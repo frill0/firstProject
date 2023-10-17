@@ -24,7 +24,7 @@ root.title("한글 맞춤법 검사기")
 
 
 # 이미지를 로드
-image = tk.PhotoImage(file="야옹이.png")
+image = tk.PhotoImage(file="맞춤법검사기.png")
 
 # 이미지를 표시할 레이블 생성
 image_label = tk.Label(root, image=image)
