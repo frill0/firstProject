@@ -22,15 +22,10 @@ def reset_text():
 root = tk.Tk()
 root.title("한글 맞춤법 검사기")
 
-
-# 이미지를 로드
 image = tk.PhotoImage(file="맞춤법검사기.png")
 
-# 이미지를 표시할 레이블 생성
 image_label = tk.Label(root, image=image)
 image_label.pack()
-
-
 
 text_entry = tk.Text(root, width=40, height=10)
 text_entry.pack()
